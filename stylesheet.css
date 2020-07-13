@@ -156,6 +156,10 @@
   color: white;
 }
 
+#test {
+  test;
+}
+
   #grid {
     display: grid;
     grid-template-columns: 26%;
