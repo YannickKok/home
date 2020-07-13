@@ -77,6 +77,8 @@
     float: left;
   }
 
+
+
   #homebutton   {
     margin-left: 5%;
   }
@@ -111,18 +113,51 @@
     padding-left: 1.5em;
   }
 
+  #section3 {
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 4em;
+    padding-left: 1.5em;
+  }
+
+  #section4 {
+    height: 180px;
+    background-color: #333333;
+    padding-top: 4em;
+    padding-left: 1.5em;
+  }
+
+.socials {
+
+   height: 40px;
+   width: 40px;
+  }
+
+  #linkedin {
+    margin-left: 45%;
+  }
+
+#bottom {
+  color: white;
+  font-size: 0.6em;
+  margin-left: 43%;
+
+
+
+}
+
+#bottom a, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
   #grid {
     display: grid;
     grid-template-columns: 26%;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  #section3 {
-    height: 950px;
-    background-color: rgb(255, 255, 255);
-    padding-top: 4em;
-    padding-left: 1.5em;
-  }
+
 
   #englishbutton {
     height: 25px;
@@ -163,6 +198,40 @@
     width: 100%;
     height: auto;
 
+  }
+
+  input {
+    margin-bottom: 2em;
+    width: 1140px;
+    height: 40px;
+    padding-left: 2em;
+    margin-left: 20%;
+    background-color: #F6F6F6;
+
+  }
+
+  textarea {
+    width: 1140px;
+    height: 115px;
+    padding-left: 2em;
+    padding-top: 1em;
+    margin-left: 20%;
+    background-color: #F6F6F6;
+    border: 2px solid black;
+
+  }
+
+  #button {
+    margin-top: 2em;
+    background-color: #419641;
+    color: white;
+    font-size: 1.3em;
+    height: 40px;
+    width: 120px;
+    padding: 0;
+  }
+  #name {
+    margin-top: 2em;
   }
 
   #stibatposter {

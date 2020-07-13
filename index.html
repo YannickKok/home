@@ -10,8 +10,7 @@
     <link href="stylesheet.css" type="text/css" rel="stylesheet">
     <!-- link naar extern font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="form.js"></script>
+
     <!-- <script src="javascript.js"></script> -->
     
 </head>
@@ -124,38 +123,32 @@
     <div class="main" id="section3">
         <h2>Contact opnemen</h2>
         <p>Bevalt mijn website je? Aarzel dan niet om contact op te nemen.
+            <form action="/my-handling-form-page" method="post">
 
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h2>Contact Us</h2> Got a question ? Feedback? Awesome! 
-                    <p> Send your message in the form below and we will get back to you as early as possible. </p>
-                    <form role="form" method="post" id="reused_form" >
-                        <div class="form-group">
-                            <label for="name"> Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
-                        </div>
-                        <div class="form-group">
-                            <label for="email"> Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required maxlength="50">
-                        </div>
-                        <div class="form-group">
-                            <label for="name"> Message:</label>
-                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
-                        </div>
-                        <div class="row" style="margin-bottom:30px;">
+                   
+                   <input type="text" id="name" name="user_name" placeholder="Naam">
 
-                        </div>
-                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! &rarr;</button>
-                    </form>
-                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
-                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
-                </div>
-            </div>
+                   
+                   <input type="email" id="mail" name="user_email" placeholder="E-mail">
+
+                   
+                   <textarea id="msg" name="user_message" placeholder="Bericht"></textarea>
+                
+                   <input type="submit" id="button" >
+               </form>
+
 
 
            <!-- /* <br> Stuur bijvoorbeeld een mail naar <strong><u><a href="mailto:12086967@student.hhs.nl">12086967@student.hhs.nl</a></u></strong> waarin je vraagt naar mijn CV of beschikbaarheid. -->
             <!-- <br> Of bekijk mijn Linkedin pagina <strong><u><a href="https://www.linkedin.com/in/yannick-kok-9a1703192/">via deze link</a></u></strong>. */ -->
         </p>
+    </div>
+
+    <div class="main" id="section4">
+        <a href="https://www.linkedin.com/in/yannick-kok-9a1703192/" ><img src="images/linkedin-6-48.png" class="socials" id="linkedin" ></a>
+        <a href="mailto:12086967@student.hhs.nl"><img src="images/new-post-48.png" class="socials" id="mail" ></a>
+        <br>
+        <p id="bottom">Portfolio Yannick Kok | <a href="https://yannickkok.github.io/home/index.html"><u>Yannick Kok</u></a></p>
     </div>
 
 
